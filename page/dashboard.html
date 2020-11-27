@@ -1,0 +1,72 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="/assets/css/all.css" />
+  <body class="dashboard">
+    <div class="header" id="myHeader">
+      <div class="app-name">Todos</div>
+      <div class="app-name-right"><p id="logout">Sign Out</p></div>
+    </div>
+    <main>
+      <div class="" style="display: inline-flex;width:100%">
+        <img
+          class="img-photos"
+          src="https://glints.com/sg/hired/wp-content/uploads/2018/04/star-glints.png"
+          alt=""
+        />
+        <div class="test">
+          <div class="uname"></div>
+        </div>
+        <div class="todo-grid">
+          <div class="add-todo">
+            <div class="add-todo-list-label1">
+
+              <Input id="taskinput" class="label-input" placeholder="add a task....."></Input>
+              <div style="width: 30%; height: 100%;">
+                <div id="addtask" class="label-add"></div>
+              </div>
+
+            </div>
+          </div>
+          <div id="labell" class="labell">
+            <div class="add-todo-list-label">
+              <div class="label-task">Task</div>
+              <div class="label-star">Important</div>
+            </div>
+            <div class="add-todo-list" style="display: relative;">
+              <input type="checkbox" class="cb">
+              <p class="task">Cutting hair (sample)</p>
+              <div class="star"></div>
+              <div class="pencil"></div>
+              <div class="trash"></div>
+            </div>
+            <div class="add-todo-list" style="display: relative;">
+              <input  type="checkbox" class="cb">
+              <p class="task">Running on court (sample)</p>
+              <div class="star"></div>
+              <div class="pencil"></div>
+              <div class="trash"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="/assets/js/all.js"></script>
+  <script src="/assets/js/dashboard.js"></script>
+  <!--ini buat manggil js -->
+  <script>
+    if (localStorage.getItem("status")) {
+      document.getElementsByClassName(
+        "uname"
+      )[0].textContent = localStorage.getItem("name");
+    } else {
+      alert("you are not awllowed!");
+      window.location.href = "login.html";
+    }
+  </script>
+</html>
