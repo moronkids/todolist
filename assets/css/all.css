@@ -441,12 +441,12 @@ color: #000000;
 }
 
 .star {
-  background: url('/assets/img/star-important.png');
+  background: url('assets/img/star-important.png');
   width: 35px;
   height: 29px;
 }
 .bl {
-  background: url('/assets/img/star-important.png');
+  background: url('assets/img/star-important.png');
   width: 35px;
   height: 29px;
    filter: grayscale(100%);
@@ -479,7 +479,7 @@ width: 465px;
     /* line-height: 75px; */
     /* text-align: center; */
     /* color: #C4C4C4; */
-    background: url(/assets/img/+.png);
+    background: url('assets/img/+.png');
     /* float: right; */
     /* position: absolute; */
     /* bottom: 0px; */
@@ -535,7 +535,7 @@ input.label-input:focus{
   border: none;
 }
 .pencil {
-    background: url('/assets/img/pencil-edit.png');
+    background: url('assets/img/pencil-edit.png');
 width: 24px;
 height: 24px;
 margin-left: 156px;
@@ -545,7 +545,7 @@ top: 405px; */
 /* background: url(icons8-pencil-24.png); */
 }
 .trash {
-    background: url('/assets/img/trash-delete.png');
+    background: url('assets/img/trash-delete.png');
 width: 24px;
 height: 24px;
 margin-left: 80px;
