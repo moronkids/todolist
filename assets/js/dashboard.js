@@ -41,23 +41,7 @@ if (button) {
         let task = new allTask();
         task.addIt = document.getElementById('taskinput').value;
         let taskx = task.result
-        // console.log(taskx[1], task, document.getElementById('taskinput').value)
-
-        // document.getElementsByClassName("labell")[0].innerHTML =
-        // taskx.forEach((val, i ,arr) => {
-        //     console.log(val.name, "duar")
-        //     html =
-        //         '<div class="add-todo-list" style="display: relative;">' +
-        //         ' <input type="checkbox" class="cb">' +
-        //         '<p class="task">'+val.name+'</p>' +
-        //         '<div class="star"></div>' +
-        //         '<div class="pencil"></div>' +
-        //         '<div class="trash"></div>' +
-        //         '</div>';
-        //         console.log(html, "cek")
-        //         document.getElementsByClassName("labell")[0].innerHTML += html;
-        //     });
-        // });
+        
         let index = parseInt(localStorage.getItem('index'))
         localStorage.setItem('point', localStorage.getItem('index'))
         html =

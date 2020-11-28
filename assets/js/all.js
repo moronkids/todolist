@@ -2,12 +2,11 @@ const main = () => {
     let buttonSignout = document.getElementById('logout');
     if(buttonSignout) {
         if(buttonSignout.addEventListener('click', function() {
-
             localStorage.removeItem('name');
             localStorage.removeItem('email');
             localStorage.removeItem('password');
             localStorage.removeItem('status');
-            setTimeout(function () { document.location.href = "login.html" }, 0);
+            setTimeout(function () { document.location.href = "index.html" }, 0);
         }));
     }
     class Login {
@@ -49,16 +48,10 @@ const main = () => {
                 setTimeout(function () {
                     document.location.href = "dashboard.html" }, 0);
             } else {
-                // setTimeout(function () { document.location.href = "login.html" }, 0);
+                // setTimeout(function () { document.location.href = "index.html" }, 0);
             }
         });
     }
-
-
-
-
-// }
-
 // const main2 = () => {
     class Register {
         constructor(name, email, password) {
