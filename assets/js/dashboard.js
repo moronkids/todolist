@@ -72,18 +72,25 @@ if (button) {
             document.getElementsByClassName("labell")[0].innerHTML += html;
 })}
 function star(id) {
-    let star = document.getElementById(id).getElementsByClassName('bl')
-    console.log(star.length);
-    if(star.length == 0) {
-        document.getElementById(id).getElementsByClassName('star')[0].className += " bl"
-        // document.getElementById("MyElement").classList.add('MyClass');
+    let validatex = validate(id);
+    if(validatex) {
 
-        // document.getElementById("MyElement").classList.remove('MyClass');
+        let star = document.getElementById(id).getElementsByClassName('bl')
+        console.log(star.length);
+        if(star.length == 0) {
+            document.getElementById(id).getElementsByClassName('star')[0].className += " bl"
+            // document.getElementById("MyElement").classList.add('MyClass');
+
+            // document.getElementById("MyElement").classList.remove('MyClass');
+        }
+        else {
+            console.log("sini")
+            var element = document.getElementById(id).getElementsByClassName('star');
+            element[0].classList.remove("bl");
+        }
     }
     else {
-        console.log("sini")
-        var element = document.getElementById(id).getElementsByClassName('star');
-        element[0].classList.remove("bl");
+        alert("Please checked first!")
     }
 }
 
