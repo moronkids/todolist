@@ -7,7 +7,7 @@ const main = () => {
             localStorage.removeItem('email');
             localStorage.removeItem('password');
             localStorage.removeItem('status');
-            setTimeout(function () { document.location.href = "login.html" }, 0);
+            setTimeout(function () { document.location.href = "https://moronkids.github.io/todolist/" }, 0);
         }));
     }
     class Login {
@@ -49,7 +49,7 @@ const main = () => {
                 setTimeout(function () {
                     document.location.href = "dashboard.html" }, 0);
             } else {
-                // setTimeout(function () { document.location.href = "login.html" }, 0);
+                // setTimeout(function () { document.location.href = "https://moronkids.github.io/todolist/" }, 0);
             }
         });
     }
