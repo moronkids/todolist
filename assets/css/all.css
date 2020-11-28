@@ -545,7 +545,7 @@ top: 405px; */
   /* background: url(icons8-pencil-24.png); */
 }
 .trash {
-  background: url(./img/trash-delete.png);
+  background: url('./img/trash-delete.png');
   width: 24px;
   height: 24px;
   margin-left: 80px;
