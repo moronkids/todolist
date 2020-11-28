@@ -440,12 +440,12 @@ input.front {
 }
 
 .star {
-  background: url("../img/star-important.png");
+  background: url("https://moronkids.github.io/star-important.png");
   width: 35px;
   height: 29px;
 }
 .bl {
-  background: url("../img/star-important.png");
+  background: url("https://moronkids.github.io//star-important.png");
   width: 35px;
   height: 29px;
   filter: grayscale(100%);
@@ -478,7 +478,7 @@ input.front {
   /* line-height: 75px; */
   /* text-align: center; */
   /* color: #C4C4C4; */
-  background: url("../img/+.png");
+  background: url("https://moronkids.github.io/+.png");
   /* float: right; */
   /* position: absolute; */
   /* bottom: 0px; */
@@ -535,7 +535,7 @@ input.label-input:focus {
   border: none;
 }
 .pencil {
-  background: url("../img/pencil-edit.png");
+  background: url("https://moronkids.github.io/pencil-edit.png");
   width: 24px;
   height: 24px;
   margin-left: 156px;
